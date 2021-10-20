@@ -1,9 +1,10 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://whatsapp-clone-server-backend.herokuapp.com/",
 });
 
 export default instance;
 
-//https://whatsapp-rest-server.herokuapp.com/
+//https://whatsapp-clone-server-backend.herokuapp.com/
+//"http://localhost:8080",
